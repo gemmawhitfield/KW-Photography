@@ -1,0 +1,124 @@
+* 
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.logo
+{
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+
+nav 
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgba(0,0,0,.2);   
+    
+}
+
+.nav-links 
+{
+  display: flex;
+  justify-content: space-around;
+  width: 35%;
+  text-transform: uppercase;
+}
+
+.nav-links li
+{
+    list-style: none;
+}
+
+.nav-links a 
+{
+    color: white;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+.hero {
+position:relative;
+min-height: 100vh;
+background: url(DadBike.jpg);
+background-size: cover;
+background-position: right;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.inner {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    max-width: none;
+    align-items: center;
+    font-size: 40px;
+}
+
+.hero h1 {
+    max-width: 600px;
+    margin: auto;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.hero h2 {
+    max-width: 600px;
+    margin: auto;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.hero h4 {
+    margin: auto;
+    max-width: 400px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    border: 3px solid white;
+   
+
+    
+}
+
+
+
+.typing
+{
+position: relative;
+margin-left: 10px;
+}
+
+.typing::after{
+content: "";
+position: relative;
+width:1px;
+height: 40px;
+border-right: 2px solid white;
+animation: blink 0.5s infinite ease;
+
+}
+
+
+@keyframes blink {
+0% {
+  opacity: 0;
+}
+
+100% {
+  opacity: 1; 
+}
